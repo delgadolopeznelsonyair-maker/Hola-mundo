@@ -13,4 +13,3 @@ while i<n:
         print("Es primo")
         break
     i=i+1
-    

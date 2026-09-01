@@ -14,13 +14,13 @@ if es_primo == True:
     a=0
     b=1
 
-while  a < n:
-    siguiente = a + b
+    while  a < n:
+        siguiente = a + b
     a = b
     b = siguiente
-if a == n:
-    print(n, "esta en Fibonacci")
-else:
-    print(n, "no esta en Fibonacci")
-   else: 
-    print(n, "no es primo")
+    if a == n:
+        print(n, "esta en Fibonacci")
+    else:
+        print(n, "no esta en Fibonacci")
+else: 
+   print(n, "no es primo")
